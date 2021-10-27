@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title> ML BASIC MODEL </title>
+    </head>
+    <body>
+        <form action = 'predict' method="post">
+            <input type ='number' name = 'experience' placeholder='experience' required='required'/>
+            <input type ='number' name = 'test_score' placeholder='test_score' required='required'/>
+            <input type ='number' name = 'Interview_score' placeholder='Int_score' required='required'/>
+
+            <button type = 'submit'> Predict </button>
+
+        </form>
+
+        {{ prediction_text }}
+    </body>
+</html>
